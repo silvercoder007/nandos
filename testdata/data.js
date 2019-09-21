@@ -1,4 +1,4 @@
-const data = {
+exports.data = {
   grid: "5 5",
   rovers: [
     {
@@ -11,3 +11,4 @@ const data = {
     }
   ]
 };
+
