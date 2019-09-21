@@ -1,8 +1,8 @@
-const data = require("../data/data.js");
+const  { data } = require("../data/data.js");
 const setupGrid = require("./setupGrid.js");
 
 describe("setupGrid", () => {
-  const { grid } = data.data;
+  const { grid } = data;
   it("should setup a grid of 5 x 5 size", () => {
     expect(setupGrid(grid)).toEqual({ xMax: 5, yMax: 5 });
   });
