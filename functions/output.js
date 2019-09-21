@@ -6,5 +6,6 @@ exports.output = function({ grid, rovers }) {
   const finalRoverCoords = rovers.map(rovers => {
     return calculateFinalCoord(rovers, gridLimits);
   });
-  console.log(finalRoverCoords);
+  return finalRoverCoords;
 };
+
