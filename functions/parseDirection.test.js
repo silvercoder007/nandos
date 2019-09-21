@@ -1,8 +1,6 @@
-const data = require("../testdata/data.js");
 const parseDirection = require("./parseDirection.js");
 
 describe("parseDirection", () => {
-  const { grid } = data.data;
   it("should output 360 when given a N value", () => {
     expect(parseDirection("N")).toEqual(360);
   });
