@@ -1,4 +1,4 @@
-const data = require("../testdata/data.js");
+const data = require("../data/data.js");
 const setupGrid = require("./setupGrid.js");
 
 describe("setupGrid", () => {
