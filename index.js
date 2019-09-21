@@ -1,3 +1,4 @@
-const data = require('./testdata/data.js');
+const { output } = require("./functions/output.js");
+const { data } = require("./data/data.js");
 
-console.log(data);
+output(data);

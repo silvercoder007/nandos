@@ -1,4 +1,4 @@
-const parseCardinalDirection = require("./parseCardinalDirection.js");
+const { parseCardinalDirection } = require("./parseCardinalDirection.js");
 
 describe("parseDirection", () => {
   it("should output N when given a 360 value", () => {
